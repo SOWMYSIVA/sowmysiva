@@ -1,12 +1,14 @@
+
 import java.io.*;
 import java.util.*;
 class subset
 {
 public static void main(String arg[])
 {
-scanner sc=new Scanner(System.in);
+Scanner sc=new Scanner(System.in);
 int n=sc.nextInt();
 int m=sc.nextInt();
+int count=0;
 int a[]=new int[n];
 int b[]=new int[m];
 String b1="";
@@ -39,3 +41,6 @@ else
 System.out.println("No");
 }
 }
+
+ 
+    
