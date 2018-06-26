@@ -13,6 +13,6 @@ for(int i=0;i<n;i++)
 a[i]=sc.nextInt();
 }
 Arrays.sort(a);
-System.out.println(a[n-k]);}
+System.out.println(a[n-k]);
 }
 }
