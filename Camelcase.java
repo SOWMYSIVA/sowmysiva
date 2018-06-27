@@ -11,7 +11,7 @@ String s2="";
 for(int i=0;i<s1.length;i++)
 {
 String m=String.valueOf(s1[i].charAt(0));
-s2=s2+m.toUpperCase()+s1[i].substring(1,s1[i].length())+" ";   
+s2=s2+m.toUpperCase()+s1[i].substring(1,s1[i].length()).toLowerCase()+" ";   
 }
 System.out.print(s2);
 }
