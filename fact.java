@@ -11,5 +11,8 @@ for(int i=1;i<=n;i++)
 {
 fact=i*fact;
 }
+  if(n==0)
+    System.out.println(0);
+  else
 System.out.println(fact);
 }}
